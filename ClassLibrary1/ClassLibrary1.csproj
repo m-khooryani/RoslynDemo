@@ -14,7 +14,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\MyCustomRules\MyCustomRules.csproj" />
+	  <ProjectReference Include="..\MyCustomRules\MyCustomRules.csproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <OutputItemType>Analyzer</OutputItemType>
+    </ProjectReference>
 	</ItemGroup>
 
 </Project>
